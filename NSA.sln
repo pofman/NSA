@@ -1,0 +1,71 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Presentation", "1 - Presentation", "{8A9D9C56-92D7-49A6-9206-0EC9FEAD6A72}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{C55650EA-5C17-417E-8814-36E446CD02D9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Business", "3 - Business", "{7585B3C5-1342-466B-A67C-397AA9A3AC09}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Persistence", "4 - Persistence", "{15EBBE31-0C00-48D8-B82B-8391E5B29596}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSA.Services", "NSA.Services\NSA.Services.csproj", "{3CBA6452-939D-4D79-AF3F-4809583D9677}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSA.Services.Tests", "NSA.Services.Tests\NSA.Services.Tests.csproj", "{4B84A1F4-3B75-4BB8-9E30-29AD26EA66A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSA.Domain", "NSA.Domain\NSA.Domain.csproj", "{70708D9F-DFEC-44EB-AE33-AD8596569B0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSA.Domain.Tests", "NSA.Domain.Tests\NSA.Domain.Tests.csproj", "{AABD57B7-C225-4DD0-9500-9FBF22BC16CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSA.Persistence", "NSA.Persistence\NSA.Persistence.csproj", "{1FFEFF79-BB86-440F-90DA-0C06B5A50878}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Support", "5 - Support", "{C13DEB97-EBEE-461D-9C27-CFBDEE9DCA58}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSA.Support", "NSA.Support\NSA.Support.csproj", "{F2E7202D-18E4-49F7-8BE4-7814FF507F9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3CBA6452-939D-4D79-AF3F-4809583D9677}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3CBA6452-939D-4D79-AF3F-4809583D9677}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3CBA6452-939D-4D79-AF3F-4809583D9677}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3CBA6452-939D-4D79-AF3F-4809583D9677}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B84A1F4-3B75-4BB8-9E30-29AD26EA66A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B84A1F4-3B75-4BB8-9E30-29AD26EA66A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B84A1F4-3B75-4BB8-9E30-29AD26EA66A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B84A1F4-3B75-4BB8-9E30-29AD26EA66A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{70708D9F-DFEC-44EB-AE33-AD8596569B0F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70708D9F-DFEC-44EB-AE33-AD8596569B0F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70708D9F-DFEC-44EB-AE33-AD8596569B0F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70708D9F-DFEC-44EB-AE33-AD8596569B0F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AABD57B7-C225-4DD0-9500-9FBF22BC16CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AABD57B7-C225-4DD0-9500-9FBF22BC16CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AABD57B7-C225-4DD0-9500-9FBF22BC16CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AABD57B7-C225-4DD0-9500-9FBF22BC16CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1FFEFF79-BB86-440F-90DA-0C06B5A50878}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1FFEFF79-BB86-440F-90DA-0C06B5A50878}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1FFEFF79-BB86-440F-90DA-0C06B5A50878}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1FFEFF79-BB86-440F-90DA-0C06B5A50878}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2E7202D-18E4-49F7-8BE4-7814FF507F9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2E7202D-18E4-49F7-8BE4-7814FF507F9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2E7202D-18E4-49F7-8BE4-7814FF507F9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2E7202D-18E4-49F7-8BE4-7814FF507F9B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3CBA6452-939D-4D79-AF3F-4809583D9677} = {C55650EA-5C17-417E-8814-36E446CD02D9}
+		{4B84A1F4-3B75-4BB8-9E30-29AD26EA66A6} = {C55650EA-5C17-417E-8814-36E446CD02D9}
+		{70708D9F-DFEC-44EB-AE33-AD8596569B0F} = {7585B3C5-1342-466B-A67C-397AA9A3AC09}
+		{AABD57B7-C225-4DD0-9500-9FBF22BC16CC} = {7585B3C5-1342-466B-A67C-397AA9A3AC09}
+		{1FFEFF79-BB86-440F-90DA-0C06B5A50878} = {15EBBE31-0C00-48D8-B82B-8391E5B29596}
+		{F2E7202D-18E4-49F7-8BE4-7814FF507F9B} = {C13DEB97-EBEE-461D-9C27-CFBDEE9DCA58}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPath = packages\Unity.2.1.505.2\lib\NET35
+	EndGlobalSection
+EndGlobal
