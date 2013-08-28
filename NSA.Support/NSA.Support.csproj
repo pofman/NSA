@@ -46,6 +46,7 @@
     <Compile Include="DefaultDateTimeProvider.cs" />
     <Compile Include="Domain\Entity.cs" />
     <Compile Include="Domain\IdentityGenerator.cs" />
+    <Compile Include="Extensions\CollectionExtensions.cs" />
     <Compile Include="Extensions\ReflectionExtensions.cs" />
     <Compile Include="IDateTimeProvider.cs" />
     <Compile Include="SystemDate.cs" />

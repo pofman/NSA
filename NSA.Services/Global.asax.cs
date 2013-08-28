@@ -4,6 +4,7 @@ using System.Web.Optimization;
 using System.Web.Routing;
 using NSA.Domain;
 using NSA.Persistence;
+using NSA.Services.Controllers;
 using NailsFramework.Config;
 using NailsFramework.IoC;
 using NailsFramework.Logging;
@@ -27,6 +28,7 @@ namespace NSA.Services
         protected override void ConfigureNails(INailsConfigurator nails)
         {
             nails.InspectAssemblyOf<Client>()
+                .InspectAssemblyOf<HomeController>()
                 .IoC.Container<Unity>()
                 .Persistence.DataMapper<EntityFramework>(x => x.Configure<NSAContext>())
                 .Logging.Logger<Log4net>()
