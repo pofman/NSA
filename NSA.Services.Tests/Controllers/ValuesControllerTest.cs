@@ -7,6 +7,7 @@ using System.Web.Http;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using NSA.Services;
 using NSA.Services.Controllers;
+using NSA.Services.Models;
 
 namespace NSA.Services.Tests.Controllers
 {
@@ -20,7 +21,7 @@ namespace NSA.Services.Tests.Controllers
             ValuesController controller = new ValuesController();
 
             // Act
-            IEnumerable<string> result = controller.Get();
+            var result = controller.Get();
 
             // Assert
             Assert.IsNotNull(result);
@@ -49,7 +50,7 @@ namespace NSA.Services.Tests.Controllers
             ValuesController controller = new ValuesController();
 
             // Act
-            controller.Post("value");
+            controller.Post(new ClientDto());
 
             // Assert
         }
