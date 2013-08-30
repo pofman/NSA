@@ -48,6 +48,7 @@
     <Compile Include="Domain\IdentityGenerator.cs" />
     <Compile Include="Extensions\CollectionExtensions.cs" />
     <Compile Include="Extensions\ReflectionExtensions.cs" />
+    <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="IDateTimeProvider.cs" />
     <Compile Include="SystemDate.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

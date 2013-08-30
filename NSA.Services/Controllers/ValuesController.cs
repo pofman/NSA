@@ -3,24 +3,26 @@ using System.Linq;
 using System.Web.Http;
 using NSA.Domain;
 using NSA.Services.Models;
+using NSA.Support.Web.Security;
 using NailsFramework.IoC;
 using NailsFramework.Persistence;
 using NailsFramework.UserInterface;
 
 namespace NSA.Services.Controllers
 {
+    //[Support.Web.Security.Authorize]
     public class ValuesController : NailsApiController
     {
         [Inject]
         public IBag<Client> Clients { get; set; }
 
         // GET api/values
-        public IEnumerable<object> Get()
+        public IEnumerable<ClientListItemDto> Get()
         {
-            return Clients.Select(x => new
+            return Clients.Select(x => new ClientListItemDto()
                 {
-                    x.Id,
-                    x.Name,
+                    Id = x.Id,
+                    Name = x.Name,
                 });
         }
 

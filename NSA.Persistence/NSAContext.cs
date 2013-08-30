@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Configuration;
+using NSA.Persistence.Initializers;
 using NSA.Support.Extensions;
 
 namespace NSA.Persistence
@@ -12,7 +13,7 @@ namespace NSA.Persistence
         {
             Configuration.LazyLoadingEnabled = true;
             Configuration.ProxyCreationEnabled = true;
-            Database.SetInitializer(new DropCreateDatabaseIfModelChanges<NSAContext>());
+            Database.SetInitializer(new DropCreateDatabaseIfModelChanges());
         }
         
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
