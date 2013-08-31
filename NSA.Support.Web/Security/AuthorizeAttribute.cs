@@ -10,17 +10,5 @@ namespace NSA.Support.Web.Security
             if (roles.Any())
                 Roles = roles.Join(",");
         }
-
-        public override void OnAuthorization(System.Web.Http.Controllers.HttpActionContext actionContext)
-        {
-            base.OnAuthorization(actionContext);
-        }
-    }
-
-    public enum Roles
-    {
-        Admin,
-        Planner,
-        User
     }
 }
