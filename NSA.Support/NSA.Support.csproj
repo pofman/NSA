@@ -43,10 +43,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Adapter\AdapterManager.cs" />
+    <Compile Include="Adapter\EntityAdapter.cs" />
+    <Compile Include="Adapter\ITransformContract.cs" />
     <Compile Include="DefaultDateTimeProvider.cs" />
     <Compile Include="Domain\Entity.cs" />
     <Compile Include="Domain\IdentityGenerator.cs" />
     <Compile Include="Extensions\CollectionExtensions.cs" />
+    <Compile Include="Extensions\QueryableExtensions.cs" />
     <Compile Include="Extensions\ReflectionExtensions.cs" />
     <Compile Include="Extensions\StringExtensions.cs" />
     <Compile Include="IDateTimeProvider.cs" />

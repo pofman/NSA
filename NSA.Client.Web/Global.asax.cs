@@ -5,6 +5,7 @@ using System.Web.Routing;
 using NSA.Client.Web.App_Start;
 using NSA.Client.Web.Controllers;
 using NSA.Persistence;
+using NSA.Support.Adapter;
 using NailsFramework.Config;
 using NailsFramework.IoC;
 using NailsFramework.Logging;
@@ -29,6 +30,7 @@ namespace NSA.Client.Web
         {
             nails.InspectAssemblyOf<Domain.Client>()
                 .InspectAssemblyOf<HomeController>()
+                .InspectAssemblyOf<AdapterManager>()
                 .IoC.Container<Unity>()
                 .Persistence.DataMapper<EntityFramework>(x => x.Configure<NSAContext>())
                 .Logging.Logger<Log4net>()
