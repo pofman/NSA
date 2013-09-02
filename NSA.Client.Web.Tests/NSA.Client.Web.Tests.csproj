@@ -37,20 +37,17 @@
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
-    <Reference Include="Nails, Version=0.5.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\NSA.Domain\bin\Debug\Nails.dll</HintPath>
+    <Reference Include="Nails">
+      <HintPath>..\lib\Nails.dll</HintPath>
     </Reference>
-    <Reference Include="Nails.Log4net, Version=0.5.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\NSA.Persistence.Tests\bin\Debug\Nails.Log4net.dll</HintPath>
+    <Reference Include="Nails.Log4net">
+      <HintPath>..\lib\Nails.Log4net.dll</HintPath>
     </Reference>
     <Reference Include="Nails.Mvc4">
       <HintPath>..\lib\Nails.Mvc4.dll</HintPath>
     </Reference>
-    <Reference Include="Nails.Unity2, Version=0.5.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\NSA.Persistence.Tests\bin\Debug\Nails.Unity2.dll</HintPath>
+    <Reference Include="Nails.Unity2">
+      <HintPath>..\lib\Nails.Unity2.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
